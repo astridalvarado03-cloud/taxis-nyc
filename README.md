@@ -135,5 +135,7 @@ Para más información, consultar `app/data/model_card.md`.
 - **Repositorio GitHub:** pendiente de publicación.
 
 ## Equipo
+1. Iris Carolina Elias
+2. Gabriela Stefany Rodriguez
+3. Astrid Ivette Alvarado
 
-Agregar aquí los nombres de los integrantes del equipo.
