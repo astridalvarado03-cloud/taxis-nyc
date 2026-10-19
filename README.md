@@ -90,6 +90,8 @@ no a ahorros reales observados.
 
 ### FastAPI
 
+Desde la carpeta principal del proyecto:
+
 ```bash
 cd api
 pip install -r requirements.txt
@@ -102,15 +104,20 @@ Documentación interactiva:
 
 ### Streamlit
 
-Desde la carpeta principal del proyecto:
+Desde la carpeta principal del proyecto, en otra terminal:
 
 ```bash
 pip install -r app/requirements.txt
 streamlit run app/streamlit_app.py
 ```
 
-En producción, configurar `API_URL` con la dirección
-pública de FastAPI en Render.
+Para utilizar la API publicada en Render, configurar la variable de entorno `API_URL` con la siguiente dirección:
+
+```text
+https://taxis-nyc-api-cr09.onrender.com
+```
+
+La aplicación utiliza esta dirección para consultar los pronósticos mediante FastAPI.
 
 ## Endpoints
 
@@ -130,9 +137,11 @@ Para más información, consultar `app/data/model_card.md`.
 
 ## Enlaces de publicación
 
-- **Aplicación Streamlit:** pendiente de publicación.
-- **API FastAPI:** pendiente de publicación.
-- **Repositorio GitHub:** pendiente de publicación.
+- **Aplicación Streamlit:** https://taxis-nyc-decisiones.streamlit.app/
+- **API FastAPI:** https://taxis-nyc-api-cr09.onrender.com/docs
+- **Repositorio GitHub:** https://github.com/astridalvarado03-cloud/taxis-nyc
+
+La aplicación está desplegada en Streamlit Community Cloud y consulta los pronósticos mediante la API FastAPI publicada en Render.
 
 ## Equipo
 1. Iris Carolina Elias
